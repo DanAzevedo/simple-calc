@@ -30,9 +30,9 @@ def newOp():
 
 
 def menu():
+    os.system('clear')
     op = 1
     while op:
-        os.system('clear')
         print('========================================')
         print("0 : Soma ")
         print("1 : Subtração ")
